@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725025943043",
+    "firebase_url": "https://gcmtest2-768f8.firebaseio.com",
+    "project_id": "gcmtest2-768f8",
+    "storage_bucket": "gcmtest2-768f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725025943043:android:a55e7f99aade1973",
+        "android_client_info": {
+          "package_name": "com.example.lee.gcmsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725025943043-m00gpp8i05sdksvbgtggmg7ok2p2jpoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CVRO7xyUgBgqh1y78kLBFvqkUjCQ1vU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
