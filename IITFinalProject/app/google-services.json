@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "135538830073",
+    "firebase_url": "https://finalproject-6a491.firebaseio.com",
+    "project_id": "finalproject-6a491",
+    "storage_bucket": "finalproject-6a491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135538830073:android:c115c3c56f7abba7",
+        "android_client_info": {
+          "package_name": "com.iit.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135538830073-ai2stl66m252ekif9lqlt6glbcnjuulu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iit.finalproject",
+            "certificate_hash": "cbde484895cbda1230174dd94e401d758bf8530d"
+          }
+        },
+        {
+          "client_id": "135538830073-kg4omcq3hqpsu2ptgu1o43v5plpg9iqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iit.finalproject",
+            "certificate_hash": "4d4405d795f52c8e036c6efa0eaa3acdbaad3ba4"
+          }
+        },
+        {
+          "client_id": "135538830073-vbh4cqbcfmbmukmfh78n10jfe1rfqk5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrctvRxHNjCdU5oUKBMCJ7Vz7kMCSWC8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135538830073-vbh4cqbcfmbmukmfh78n10jfe1rfqk5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
