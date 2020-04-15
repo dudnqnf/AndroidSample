@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="add_button">70dp</dimen>
+    <dimen name="add_button_margin">30dp</dimen>
+    <dimen name="action_bar_height">50dp</dimen>
+    <dimen name="action_bar_padding">20dp</dimen>
+    <dimen name="read_top_btn_size">30dp</dimen>
+    <dimen name="read_top_btn_margin">15dp</dimen>
+    <dimen name="list_view_check_image_size">20dp</dimen>
+    <dimen name="bell_size">28dp</dimen>
+    <dimen name="bell_margin">18dp</dimen>
+    <dimen name="common_content_padding">20dp</dimen>
+    <dimen name="common_line_height">30dp</dimen>
+    <dimen name="common_line_padding">6dp</dimen>
+    <dimen name="back_btn_size">20dp</dimen>
+    <dimen name="back_btn_margin">10dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="action_bar_write">Write</string>
+    <string name="action_bar_read">Read</string>
+    <string name="action_bar_edit">Edit</string>
+    <string name="write_title_label">Title</string>
+    <string name="write_time_label">Deadline</string>
+    <string name="write_priority_label">Priority</string>
+    <string name="write_content_label">Content</string>
+    <string name="confirm">confirm</string>
+    <string name="category_title">Title</string>
+    <string name="category_priority">Priority</string>
+    <string name="category_completion">Completion</string>
+    <string name="category_deadline">Deadline</string>
+
+    <string name="memo_list">List</string>
+    <string name="photo_add">ADD</string>
+
+</resources>

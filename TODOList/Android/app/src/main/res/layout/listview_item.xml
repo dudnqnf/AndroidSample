@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/listViewItemLayout"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"
+        android:id="@+id/item_title"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:id="@+id/item_priority"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <View
+            android:layout_width="@dimen/list_view_check_image_size"
+            android:layout_height="@dimen/list_view_check_image_size"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/item_check"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:id="@+id/item_deadline"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical"/>
+</LinearLayout>

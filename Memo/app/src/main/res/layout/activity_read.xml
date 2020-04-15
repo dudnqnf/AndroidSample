@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".WriteActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/action_bar_padding">
+
+        <Button
+            android:id="@+id/read_btn_back"
+            android:layout_width="@dimen/back_btn_size"
+            android:layout_height="@dimen/back_btn_size"
+            android:layout_marginStart="@dimen/back_btn_margin"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_height"
+            android:text="@string/action_bar_read"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/read_btn_edit"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="@dimen/read_top_btn_size"
+            android:layout_height="@dimen/read_top_btn_size"
+            android:layout_marginEnd="@dimen/read_top_btn_margin"
+            android:background="@drawable/ic_edit" />
+
+        <Button
+            android:id="@+id/read_btn_delete"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="@dimen/read_top_btn_size"
+            android:layout_height="@dimen/read_top_btn_size"
+            android:layout_marginEnd="@dimen/read_top_btn_margin"
+            android:background="@drawable/ic_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/common_content_padding">
+
+        <TextView
+            android:id="@+id/read_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:background="@color/colorGrey"
+            android:gravity="center_vertical"
+            android:padding="@dimen/common_line_padding"
+            android:paddingStart="@dimen/memo_text_box_left_padding"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/memo_title_text_size"
+            android:textStyle="bold"
+            tools:ignore="LabelFor,UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/read_tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/memo_text_box_margin_top"
+            android:layout_weight="1"
+            android:background="@color/colorGrey"
+            android:gravity="center_vertical"
+            android:padding="@dimen/common_line_padding"
+            android:paddingStart="@dimen/memo_text_box_left_padding"
+            android:textColor="@color/colorBlack"
+            tools:ignore="LabelFor,UnusedAttribute" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scrollview_size"
+            android:layout_marginTop="@dimen/scrollview_margin_top">
+
+            <LinearLayout
+                android:id="@+id/read_scroll_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

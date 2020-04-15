@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".WriteActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:paddingTop="@dimen/action_bar_padding"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/back_btn_size"
+            android:layout_height="@dimen/back_btn_size"
+            android:layout_marginLeft="@dimen/back_btn_margin"
+            android:id="@+id/read_btn_back"
+            android:background="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_height"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:text="@string/action_bar_read"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/read_top_btn_size"
+            android:layout_height="@dimen/read_top_btn_size"
+            android:id="@+id/read_btn_check"
+            android:background="@drawable/ic_unchecked"
+            android:layout_marginRight="@dimen/read_top_btn_margin"/>
+
+        <Button
+            android:layout_width="@dimen/read_top_btn_size"
+            android:layout_height="@dimen/read_top_btn_size"
+            android:id="@+id/read_btn_edit"
+            android:background="@drawable/ic_edit"
+            android:layout_marginRight="@dimen/read_top_btn_margin"/>
+
+        <Button
+            android:layout_width="@dimen/read_top_btn_size"
+            android:layout_height="@dimen/read_top_btn_size"
+            android:id="@+id/read_btn_delete"
+            android:background="@drawable/ic_delete"
+            android:layout_marginRight="@dimen/read_top_btn_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/common_content_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="@string/write_title_label"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:padding="@dimen/common_line_padding"
+            android:gravity="center_vertical"
+            android:id="@+id/read_tv_title"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorBlack"
+            tools:ignore="LabelFor,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="@string/write_time_label"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:padding="@dimen/common_line_padding"
+            android:gravity="center_vertical"
+            android:id="@+id/read_tv_deadline"
+            android:focusable="false"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorBlack"
+            tools:ignore="LabelFor,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="@string/write_priority_label"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:padding="@dimen/common_line_padding"
+            android:gravity="center_vertical"
+            android:id="@+id/read_tv_priority"
+            android:inputType="text"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorBlack"
+            tools:ignore="LabelFor,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="@string/write_content_label"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/common_line_padding"
+            android:gravity="center_vertical"
+            android:id="@+id/read_tv_content"
+            android:layout_weight="1"
+            android:background="@color/colorGrey"
+            android:textColor="@color/colorBlack"
+            tools:ignore="LabelFor,UnusedAttribute"/>
+    </LinearLayout>
+
+</LinearLayout>
